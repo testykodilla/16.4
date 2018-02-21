@@ -1,2 +1,2 @@
-var log = require('./log');
-log('yalayalayala');
+import log from './log.js';
+log('hello world');
