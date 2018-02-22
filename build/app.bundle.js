@@ -8310,7 +8310,7 @@ var App = function (_React$Component) {
             return _react2.default.createElement(
                 'div',
                 { className: _App2.default.TodoApp },
-                'Tutaj pojawi\u0105 si\u0119 komponenty naszej aplikacji.'
+                _react2.default.createElement(_Title2.default, { qty: this.state.data.length })
             );
         }
     }]);
@@ -8546,11 +8546,11 @@ exports = module.exports = __webpack_require__(16)(false);
 
 
 // module
-exports.push([module.i, "._1yWMblMhcoxIcFRQVWQUoB {\r\n    background-color: #F5F5F5;\r\n    color: #222;\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex-wrap: nowrap;\r\n    justify-content: center;\r\n    align-items: center;\r\n    align-content: center;\r\n    width: 100vw;\r\n    height: 100vh;\r\n}", ""]);
+exports.push([module.i, "._2xo2biYT1s9XQmHhT2Utv5 {\n    background-color: #F5F5F5;\n    color: #222;\n    display: flex;\n    flex-direction: column;\n    flex-wrap: nowrap;\n    justify-content: center;\n    align-items: center;\n    align-content: center;\n    width: 100vw;\n    height: 100vh;\n}", ""]);
 
 // exports
 exports.locals = {
-	"TodoApp": "_1yWMblMhcoxIcFRQVWQUoB"
+	"TodoApp": "_2xo2biYT1s9XQmHhT2Utv5"
 };
 
 /***/ }),
@@ -8659,8 +8659,6 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
 var _react = __webpack_require__(2);
 
 var _react2 = _interopRequireDefault(_react);
@@ -8671,46 +8669,22 @@ var _Title2 = _interopRequireDefault(_Title);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ilosc = 0;
-
-var Title = function (_React$Component) {
-    _inherits(Title, _React$Component);
-
-    function Title() {
-        _classCallCheck(this, Title);
-
-        return _possibleConstructorReturn(this, (Title.__proto__ || Object.getPrototypeOf(Title)).apply(this, arguments));
-    }
-
-    _createClass(Title, [{
-        key: 'render',
-        value: function render() {
-            return _react2.default.createElement(
-                'div',
-                { className: _Title2.default.titleStyle },
-                _react2.default.createElement(
-                    'h2',
-                    null,
-                    '`Rzeczy do zrobienia`'
-                ),
-                _react2.default.createElement(
-                    'p',
-                    null,
-                    '`Ilo\u015B\u0107 rzeczy do zrobienia wynosi:  $',
-                    ilosc
-                )
-            );
-        }
-    }]);
-
-    return Title;
-}(_react2.default.Component);
+var Title = function Title(props) {
+    return _react2.default.createElement(
+        'div',
+        { className: _Title2.default.titleStyle },
+        _react2.default.createElement(
+            'h2',
+            null,
+            'Rzeczy do zrobienia'
+        ),
+        _react2.default.createElement(
+            'p',
+            null,
+            'Ilo\u015B\u0107 rzeczy do zrobienia wynosi: ' + props.qty
+        )
+    );
+};
 
 exports.default = Title;
 
@@ -8773,11 +8747,11 @@ exports = module.exports = __webpack_require__(16)(false);
 
 
 // module
-exports.push([module.i, "._1QBD957DQc6jQhfJviYZ91 {\r\n    background-color: #F5F5F5;\r\n    color: #222;\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex-wrap: nowrap;\r\n    justify-content: center;\r\n    align-items: center;\r\n    align-content: center;\r\n    width: 100vw;\r\n    height: 100vh;\r\n}", ""]);
+exports.push([module.i, "._3xuXkUZVfOblA3QCjKMM2p {\n    background-color: #F5F5F5;\n    color: #222;\n    display: flex;\n    flex-direction: column;\n    flex-wrap: nowrap;\n    justify-content: center;\n    align-items: center;\n    align-content: center;\n    width: 100vw;\n    height: 100vh;\n}", ""]);
 
 // exports
 exports.locals = {
-	"titleStyle": "_1QBD957DQc6jQhfJviYZ91"
+	"titleStyle": "_3xuXkUZVfOblA3QCjKMM2p"
 };
 
 /***/ })
