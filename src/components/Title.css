@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+
 .titleStyle {
     background-color: #F5F5F5;
     color: #222;
@@ -9,4 +11,5 @@
     align-content: center;
     width: 100vw;
     height: 100vh;
+    font-family: 'Cedarville Cursive', cursive;
 }

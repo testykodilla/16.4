@@ -8546,11 +8546,11 @@ exports = module.exports = __webpack_require__(16)(false);
 
 
 // module
-exports.push([module.i, "._2xo2biYT1s9XQmHhT2Utv5 {\n    background-color: #F5F5F5;\n    color: #222;\n    display: flex;\n    flex-direction: column;\n    flex-wrap: nowrap;\n    justify-content: center;\n    align-items: center;\n    align-content: center;\n    width: 100vw;\n    height: 100vh;\n}", ""]);
+exports.push([module.i, "._1yWMblMhcoxIcFRQVWQUoB {\r\n    background-color: #F5F5F5;\r\n    color: #222;\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex-wrap: nowrap;\r\n    justify-content: center;\r\n    align-items: center;\r\n    align-content: center;\r\n    width: 100vw;\r\n    height: 100vh;\r\n}", ""]);
 
 // exports
 exports.locals = {
-	"TodoApp": "_2xo2biYT1s9XQmHhT2Utv5"
+	"TodoApp": "_1yWMblMhcoxIcFRQVWQUoB"
 };
 
 /***/ }),
@@ -8744,14 +8744,14 @@ if(false) {
 
 exports = module.exports = __webpack_require__(16)(false);
 // imports
-
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Cedarville+Cursive);", ""]);
 
 // module
-exports.push([module.i, "._3xuXkUZVfOblA3QCjKMM2p {\n    background-color: #F5F5F5;\n    color: #222;\n    display: flex;\n    flex-direction: column;\n    flex-wrap: nowrap;\n    justify-content: center;\n    align-items: center;\n    align-content: center;\n    width: 100vw;\n    height: 100vh;\n}", ""]);
+exports.push([module.i, "._1QBD957DQc6jQhfJviYZ91 {\r\n    background-color: #F5F5F5;\r\n    color: #222;\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex-wrap: nowrap;\r\n    justify-content: center;\r\n    align-items: center;\r\n    align-content: center;\r\n    width: 100vw;\r\n    height: 100vh;\r\n    font-family: 'Cedarville Cursive', cursive;\r\n}", ""]);
 
 // exports
 exports.locals = {
-	"titleStyle": "_3xuXkUZVfOblA3QCjKMM2p"
+	"titleStyle": "_1QBD957DQc6jQhfJviYZ91"
 };
 
 /***/ })
