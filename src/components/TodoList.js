@@ -6,9 +6,8 @@ const TodoList = props => {
     return (
     <ol className = {style.TodoList}>
         {props.data.map(listOfThings => {
-            <Todo />
-            return 
-                <Todo 
+            return <Todo 
+                    key = {listOfThings.id}
                     text = {listOfThings.text}
                     remove = {props.remove}
                     id = {listOfThings.id}

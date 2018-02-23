@@ -11,13 +11,13 @@ class App extends React.Component {
         this.state = {
             data: 
                 [{
-                    id: 1,
+                    id: uuid.v4(),
                         text: 'Posprzątać'
                     }, {
-                    id: 2,
+                    id: uuid.v4(),
                         text: 'Odrobić lekcje'
                     }, {
-                    id: 3,
+                    id: uuid.v4(),
                         text: 'Zrobić pranie'
                     }]
         };
